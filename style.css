@@ -1,0 +1,225 @@
+/*======================= common css style code start  ========================*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 100vw;
+  font-family: "Lato", sans-serif;
+}
+
+#banner-section,
+#aboutus-section,
+#current-listing-section,
+#classic-section,
+#twobr-section,
+#service-section,
+#bussiness-section,
+#homepage-footer {
+  max-width: 100%;
+  height: 100vh;
+}
+
+.three-heading {
+  color: #4e5152;
+  font-size: 40px;
+}
+
+.two-section-heading {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #4e5152;
+  padding: 32px 0px;
+}
+
+.inquire-btn {
+  border: 2px solid #807d7d;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #807d7d;
+  font-size: 18px;
+  padding: 12px 30px;
+}
+
+/*======================= common css style code end  ========================*/
+
+/*====================== header start  =============================*/
+.header-container {
+  height: 16vh;
+  padding: 0px 84px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*====================== header end  =============================*/
+
+/*====================== banner start  =============================*/
+#banner-section {
+  background-image: url(./image/banner-image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.brand > h1 {
+  font-size: 26px;
+}
+
+/*====================== banner end  =============================*/
+
+/*====================== about us start  =============================*/
+
+#aboutus-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutus-p {
+  font-size: 42px;
+  color: #4e5152;
+  font-weight: 800;
+  text-align: center;
+}
+
+.aboutus-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  line-height: 1.5;
+}
+
+/*====================== about us end  =============================*/
+
+/*====================== current section start  =============================*/
+
+.current-heading {
+  margin-left: 84px;
+}
+
+.current-list-container {
+  width: 100%;
+  display: flex;
+  height: 87%;
+}
+
+.left-current {
+  height: 100%;
+  width: 45%;
+}
+
+.left-current img {
+  width: 100%;
+  height: 100%;
+}
+
+.right-current {
+  width: 55%;
+  padding: 100px;
+}
+
+.current-info {
+  margin-left: 150px;
+}
+
+.current-p {
+  width: 300px;
+  font-size: 24px;
+  font-weight: 300;
+  margin: 50px 0px;
+}
+
+/*====================== current section end  =============================*/
+
+/*====================== clasic section start  =============================*/
+#classic-section {
+  margin-top: 100px;
+}
+
+.left-classic {
+  width: 45%;
+  height: 100vh;
+}
+
+.left-classic img {
+  width: 100%;
+  height: 100%;
+}
+
+/*====================== clasic section end  =============================*/
+
+/*====================== 2br section start  =============================*/
+#twobr-section {
+  margin-top: 100px;
+}
+
+/*====================== 2br section end  =============================*/
+
+#service-section {
+  margin-top: 100px;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+#bussiness-section {
+  margin-top: 150px;
+  background-image: url(./image/bussiness.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*====================== footer section start  =============================*/
+.footer-container {
+  padding: 80px;
+  display: flex;
+  align-items: center;
+  color: #4e5152;
+}
+
+.left-footer {
+  width: 50%;
+  height: 36vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.right-footer {
+  margin-top: 20px;
+  width: 50%;
+  height: 36vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.common-footer-heading {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.address-info-title {
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.info-para {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+}
+
+/*====================== footer section end  =============================*/
